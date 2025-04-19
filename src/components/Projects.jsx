@@ -31,7 +31,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section className="bg-transparent bg-[url(src/assets/project_background.png)] bg-cover text-starlight py-20 px-6 md:px-20 font-body">
+    <section id="projects" className="bg-transparent bg-[url(src/assets/project_background.png)] bg-cover text-starlight py-20 px-6 md:px-20 font-body">
       <motion.h2 
         className="text-4xl font-heading mb-12 text-center"
         initial={{ opacity: 0, y: -30 }}

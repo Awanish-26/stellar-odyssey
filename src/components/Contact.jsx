@@ -9,7 +9,7 @@ function Contact() {
     window.alert("Message sent successfully!")
   }
   return (
-    <section className="bg-rose-500/10 text-starlight py-20 px-6 md:px-20 font-body relative">
+    <section id="contact" className="bg-rose-500/10 text-starlight py-20 px-6 md:px-20 font-body relative">
       {/* Background Animation */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-space to-black opacity-50 z-0"></div>
 

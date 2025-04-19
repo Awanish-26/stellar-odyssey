@@ -23,7 +23,7 @@ const skills = [
 
 function Skills() {
   return (
-    <section className="bg-space text-starlight py-20 px-6 md:px-20 font-body">
+    <section id="skills" className="bg-space text-starlight py-20 px-6 md:px-20 font-body">
       <motion.h2 
         className="text-4xl font-heading mb-12 text-center"
         initial={{ opacity: 0, y: -30 }}
